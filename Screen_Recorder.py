@@ -45,7 +45,7 @@ Label(root,image=image3,bd=0).pack(pady=30 )
 Filename=StringVar()
 entry=Entry(root,textvariable=Filename,width=18,font="DS-Digital  15 bold")
 entry.place(x=73,y=350)
-Filename.set("recording##")
+Filename.set("recording###")
 
 # Buttons
 start=Button(root,text="Start",font="arial 20",bd=0,command=start_rec)
